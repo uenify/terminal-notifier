@@ -2,7 +2,7 @@
 #import <ScriptingBridge/ScriptingBridge.h>
 #import <objc/runtime.h>
 
-NSString * const TerminalNotifierBundleID = @"fr.julienxx.oss.terminal-notifier";
+NSString * const TerminalNotifierBundleID = @"com.uenify.musician-notifier";
 NSString * const NotificationCenterUIBundleID = @"com.apple.notificationcenterui";
 
 NSString *_fakeBundleIdentifier = nil;
