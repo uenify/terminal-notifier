@@ -14,11 +14,11 @@
 		5199792C15B1F92B003AFC57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5199792B15B1F92B003AFC57 /* AppDelegate.m */; };
 		5199792F15B1F92B003AFC57 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5199792D15B1F92B003AFC57 /* MainMenu.xib */; };
 		5199794215B2F908003AFC57 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199794115B2F908003AFC57 /* ScriptingBridge.framework */; };
-		C57F28902041BAB800E97D9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C57F288F2041BAB800E97D9E /* Images.xcassets */; };
+		666326C7211E0878009FE066 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666326C6211E0878009FE066 /* Icons.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5199791415B1F92B003AFC57 /* terminal-notifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "terminal-notifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5199791415B1F92B003AFC57 /* terminal-notifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "terminal-notifier.app"; path = musician.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5199791815B1F92B003AFC57 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5199791B15B1F92B003AFC57 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5199791C15B1F92B003AFC57 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -32,7 +32,7 @@
 		5199792B15B1F92B003AFC57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5199792E15B1F92B003AFC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5199794115B2F908003AFC57 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
-		C57F288F2041BAB800E97D9E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "terminal-notifier/Images.xcassets"; sourceTree = "<group>"; };
+		666326C6211E0878009FE066 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 		5199790915B1F92B003AFC57 = {
 			isa = PBXGroup;
 			children = (
-				C57F288F2041BAB800E97D9E /* Images.xcassets */,
+				666326C6211E0878009FE066 /* Icons.xcassets */,
 				5199794115B2F908003AFC57 /* ScriptingBridge.framework */,
 				5199791E15B1F92B003AFC57 /* Musician */,
 				5199791715B1F92B003AFC57 /* Frameworks */,
@@ -112,9 +112,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5199791315B1F92B003AFC57 /* terminal-notifier */ = {
+		5199791315B1F92B003AFC57 /* musician */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5199793215B1F92B003AFC57 /* Build configuration list for PBXNativeTarget "terminal-notifier" */;
+			buildConfigurationList = 5199793215B1F92B003AFC57 /* Build configuration list for PBXNativeTarget "musician" */;
 			buildPhases = (
 				5199791015B1F92B003AFC57 /* Sources */,
 				5199791115B1F92B003AFC57 /* Frameworks */,
@@ -124,8 +124,8 @@
 			);
 			dependencies = (
 			);
-			name = "musician";
-			productName = "Musician";
+			name = musician;
+			productName = Musician;
 			productReference = 5199791415B1F92B003AFC57 /* terminal-notifier.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -150,7 +150,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5199791315B1F92B003AFC57 /* terminal-notifier */,
+				5199791315B1F92B003AFC57 /* musician */,
 			);
 		};
 /* End PBXProject section */
@@ -161,8 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5199792315B1F92B003AFC57 /* InfoPlist.strings in Resources */,
-				C57F28902041BAB800E97D9E /* Images.xcassets in Resources */,
 				5199792915B1F92B003AFC57 /* Credits.rtf in Resources */,
+				666326C7211E0878009FE066 /* Icons.xcassets in Resources */,
 				5199792F15B1F92B003AFC57 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,7 +340,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5199793215B1F92B003AFC57 /* Build configuration list for PBXNativeTarget "terminal-notifier" */ = {
+		5199793215B1F92B003AFC57 /* Build configuration list for PBXNativeTarget "musician" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5199793315B1F92B003AFC57 /* Debug */,
